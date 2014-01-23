@@ -70,6 +70,8 @@ app.config(function($routeProvider, $locationProvider) {
     templateUrl: '/templates/profile.html',
     controller: 'profileController'
   })
+
+  // Otherwise, 404!
   .otherwise({
     templateUrl: '/templates/404.html'
   });
