@@ -1,0 +1,559 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"remove",
+				"removeComments"
+			],
+			[
+				"templat",
+				"templateFilesToInject"
+			],
+			[
+				"toggle",
+				"toggleMobileMenu"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"border-top",
+				"border-top-right-radius"
+			],
+			[
+				"border-radi",
+				"border-bottom-left-radius"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"first",
+				"firstRowHeights"
+			],
+			[
+				"prop",
+				"propSize"
+			],
+			[
+				"top",
+				"topOfContainer"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"cont",
+				"contactFormSuccessMsg"
+			],
+			[
+				"error",
+				"contactFormErrorMsg"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2355,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 61.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"browser",
+				"SFTP: Browse Server…"
+			],
+			[
+				"gitignore",
+				"Gitignore: New gitignore"
+			],
+			[
+				"Snippet: log",
+				"Snippet: log"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 167.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/prod/index.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/login.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/Gruntfile.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/assets/img/test.jpg",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/prod/production.less",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/Login.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/index.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/package.json",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/.bowerrc",
+		"/C/Users/Sam/Desktop/personal/CragProject/assets/js/config/routes.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/assets/js/controllers/landingController.js",
+		"/C/Users/Sam/Desktop/personal/Forus/header.php",
+		"/C/Users/Sam/Desktop/personal/Forus/contact.php",
+		"/C/Users/Sam/Desktop/personal/CragProject/README.md",
+		"/C/Users/Sam/Desktop/personal/CragProject/views/login.ejs",
+		"/C/Users/Sam/Desktop/personal/CragProject/api/controllers/AppController.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/config/routes.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/api/policies/sessionAuth.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/api/models/User.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/config/policies.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/assets/templates/newView.html",
+		"/C/Users/Sam/Desktop/personal/CragProject/assets/templates/landing.html",
+		"/C/Users/Sam/Desktop/personal/CragProject/views/app.ejs",
+		"/C/Users/Sam/Desktop/personal/CragProject/assets/js/config/app.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/views/layout.ejs",
+		"/C/Users/Sam/Desktop/personal/CragProject/Gruntfile.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/config/adapters.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/.tmp/public/jst.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/assets/styles/app.less",
+		"/C/Users/Sam/Desktop/personal/CragProject/package.json",
+		"/C/Users/Sam/Desktop/personal/CragProject/assets/styles/test.less",
+		"/C/Users/Sam/Desktop/personal/CragProject/assets/lib/sails/socketio_example.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/assets/linker/css/test.less",
+		"/C/Users/Sam/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/Users/Sam/AppData/Roaming/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/C/Users/Sam/Desktop/personal/CragProject/api/models/Route.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/api/controllers/RouteController.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/.bowerrc",
+		"/C/Users/Sam/Desktop/personal/CragProject/api/models/Wall.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/api/models/Crag.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/api/controllers/CragController.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/api/controllers/WallController.js",
+		"/C/Users/Sam/Desktop/personal/CragProject/config/local.js",
+		"/C/Users/Sam/Desktop/personal/Soup.ly/Souply.sublime-project",
+		"/C/Users/Sam/Desktop/personal/Soup.ly/api/models/Task.js",
+		"/C/Users/Sam/Desktop/personal/Soup.ly/assets/js/controllers/taskController.js",
+		"/C/Users/Sam/Desktop/personal/Soup.ly/assets/templates/tasks.html",
+		"/C/Users/Sam/Desktop/personal/Soup.ly/assets/js/routes.js",
+		"/C/Users/Sam/Desktop/personal/Soup.ly/views/layout.ejs",
+		"/C/Users/Sam/Desktop/personal/Soup.ly/api/models/Project.js",
+		"/C/Users/Sam/Desktop/personal/Soup.ly/views/homepage.ejs",
+		"/C/Users/Sam/.bashrc",
+		"/C/Users/Sam/z.sh",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/header.php",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/downloads.php",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/test.msi",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/test.zip",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/res/styles/styles.less",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/login.php",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/index.php",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/auth/logout.php",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/auth/check_auth.php",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/auth/signin.php",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/research.php",
+		"/C/Users/Sam/Desktop/Personal 2/Forus/sftp-config.json",
+		"/C/Users/Sam/Desktop/Personal/CragProject/views/homepage.ejs",
+		"/C/Users/Sam/Desktop/Personal/CragProject/app.js",
+		"/C/Users/Sam/.ssh/id_rsa.pub",
+		"/C/Users/Sam/Desktop/Personal/BeauCSS_Website/assets/styles.less",
+		"/C/Users/Sam/Desktop/Personal/BeauCSS_Website/index.html",
+		"/C/Users/Sam/Desktop/Personal/Forus/contact.php",
+		"/C/Users/Sam/Desktop/Personal/Forus/res/styles/styles.less",
+		"/C/Users/Sam/Desktop/Personal/Forus/index.php",
+		"/C/Users/Sam/Desktop/Personal/Forus/res/less/styles.less",
+		"/C/Program Files (x86)/Git/doc/git/html/git-branch.html",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/assets/linker/styles/screen.less",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/views/home/tracker.ejs",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/assets/linker/js/tracker.js",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/config/routes.js",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/views/home/modal.ejs",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/views/home/partials/friend-email.ejs",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/assets/linker/js/navigation.js",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/assets/linker/styles/vendor/bs_grid.less",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/assets/linker/styles/vendor/bs_variables.less",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/assets/linker/styles/vendor/bs_scaffolding.less",
+		"/C/Users/Sam/Desktop/Personal/SoftSoap/assets/linker/styles/vendor/bs_mixins.less",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/assets/linker/styles/styles.less",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/assets/linker/styles/framework/config.less",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/assets/linker/styles/framework/buttons.less",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/assets/linker/styles/framework/mixins.less",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/views/DEV/login.ejs",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/assets/linker/styles/framework/forms.less",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/views/layout.ejs",
+		"/C/Program Files (x86)/Git/doc/git/html/git-remote.html",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/config/routes.js",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/package.json",
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/assets/linker/styles/souply.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/souply_fe/Gruntfile.js",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/Gruntfile.js",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/assets/linker/styles/styles.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/assets/linker/styles/framework/config.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/views/DEV/login.ejs",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/views/layout.ejs",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/package.json",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/assets/linker/styles/framework/souply.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/config/routes.js",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/assets/linker/js/scripts.js",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/views/DEV/tasks.ejs",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/sftp-config.json",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/forms.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/mixins.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/buttons.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/config.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/index.php",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/souply.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/tags.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/vendor/bs_mixins.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/typeface.less",
+		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/scaffolding.less",
+		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/responsive-utilities.less",
+		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/code.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/vendor/mixins.less",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/.gitignore",
+		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/variables.less",
+		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/mixins.less",
+		"/C/Users/Sam/Desktop/Personal/Soup.ly/assets/linker/styles/Souply/normalize.css",
+		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/grid.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\Sam\\Desktop\\Personal\\Blog\\views",
+			"C:\\Users\\Sam\\Desktop\\DI\\frontend\\app",
+			"C:\\Users\\Sam\\Desktop\\Work\\JavaMoose Store",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"watch",
+			"jQuery",
+			"@media",
+			"/assets",
+			"src=\"",
+			"index",
+			"Home",
+			".min",
+			"styles",
+			"linker/",
+			"linker",
+			"required: true",
+			"div",
+			"glyphicon glyphicon-file",
+			"25",
+			"<i",
+			"button",
+			"primary",
+			"fa",
+			"high",
+			"low",
+			"Low",
+			"</label>",
+			".i",
+			"<li>",
+			".mobile-side",
+			"#mobile-nav",
+			".button",
+			"button",
+			"40px",
+			" <br>",
+			"{",
+			"input",
+			"&amp;",
+			"')",
+			"(",
+			"bs_grid",
+			"xs-6",
+			"6\"><",
+			".click",
+			"ges/",
+			"tracker",
+			"mobile-",
+			"put",
+			"property @time @effect",
+			"framework/",
+			"src=\"/",
+			"href=\"/",
+			"css",
+			"framework/",
+			" \"",
+			"LESS",
+			"sails-linker:devSt",
+			"true",
+			" tag-ui-1",
+			"1",
+			"3",
+			"2",
+			"1",
+			"h2",
+			"Modals",
+			"Tags",
+			"(need hover hex)",
+			"p>",
+			"<p",
+			"p",
+			"10px",
+			"(need hover hex)",
+			"hr",
+			"plain",
+			"Plain",
+			"sm-3",
+			"xs",
+			"2",
+			"lg",
+			"@radius;",
+			"border-radius",
+			"ui-color-1",
+			"user-select",
+			"@select",
+			"select",
+			"border-radius",
+			"col-sm-4",
+			"1.25",
+			"Software #",
+			"4\"><",
+			"asdf",
+			"glyphicon",
+			"fa",
+			"glyphicon",
+			".15",
+			"-star",
+			"tar\"></i>L",
+			"col-sm-4",
+			"col-sm-4 col-sm-offset-2",
+			"<h3><i",
+			"2",
+			"1",
+			"left",
+			"15s",
+			"e7e7e7",
+			"div",
+			"<img",
+			"- ",
+			"beaucss.com",
+			"3",
+			"posts",
+			")",
+			"3",
+			"slug",
+			"/post",
+			"inset 0 0 0 rgba(0,0,0,0)",
+			"none",
+			".stop()",
+			"h2",
+			"text",
+			"src",
+			"url",
+			";\n",
+			"  <footer>\n    <ul>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n    </ul>\n  </footer>",
+			"false",
+			"October",
+			"enweek",
+			"Two",
+			"#",
+			"<i class=\"icon icon-download\"></i>",
+			"OR",
+			"WHERE"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 2355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1474,
+								1474
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1430.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 160.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"Partners/php/rightByYouApp/index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Sam/Desktop/work/dev/BioAtlantech/BioAtlantech.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true
+}
