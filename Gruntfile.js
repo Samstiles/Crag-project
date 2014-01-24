@@ -9,6 +9,7 @@ module.exports = function(grunt) {
         src: [
           'assets/lib/angular/angular.js',
           'assets/lib/angular-route/angular-route.js',
+          'assets/lib/angular-sanitize/angular-sanitize.js',
           'app/**/*.js'
         ],
         dest: 'prod/js/production.min.js'
@@ -119,6 +120,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-newer');
 
   grunt.registerTask('go', ['default', 'connect']);
-  grunt.registerTask('default', ['clean', 'newer:concat', 'newer:htmlmin', 'newer:less', 'newer:copy']);
+  grunt.registerTask('default', ['clean', 'concat', 'htmlmin', 'less', 'copy']);
 
 };

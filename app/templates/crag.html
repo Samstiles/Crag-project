@@ -4,4 +4,18 @@
 
   <h1 ng-bind="state.crag.name">Loading...</h1>
   <h4 class="crag-location">{{state.crag.provstate}}, {{state.crag.country}}</h4>
+
+  <div class="row">
+    <div class="col-xs-6">
+      <h3>Overview</h3>
+      <p class="crag-description" ng-bind-html="state.crag.description">Loading...</p>
+    </div>
+    <div class="col-xs-6">
+      <h3>Directions</h3>
+      <p class="crag-description" ng-bind-html="state.crag.directions">Loading...</p>
+    </div>
+  </div>
+
+  <h2>History</h2>
+  <p class="crag-description" ng-bind-html="state.crag.history">Loading...</p>
 </div>
