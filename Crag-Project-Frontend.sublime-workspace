@@ -68,10 +68,18 @@
 	"buffers":
 	[
 		{
-			"file": "Gruntfile.js",
+			"file": "app/templates/home.html",
 			"settings":
 			{
-				"buffer_size": 2355,
+				"buffer_size": 3249,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/styles.less",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +87,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 1867,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/config/routes.js",
+			"settings":
+			{
+				"buffer_size": 1853,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/profile.html",
+			"settings":
+			{
+				"buffer_size": 21,
 				"line_ending": "Windows"
 			}
 		}
@@ -93,6 +117,18 @@
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"copy tag",
+				"File: Copy as Tag style"
+			],
+			[
+				"coy as ",
+				"File: Copy as Tag style"
+			],
+			[
+				"copy",
+				"File: Copy as Tag script"
 			],
 			[
 				"install ",
@@ -111,7 +147,7 @@
 				"Snippet: log"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -128,13 +164,38 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/signupController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/profileController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/config/app.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/signup.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/config/routes.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/cragController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/wallController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/routeController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/crag.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/wall.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/route.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/routes.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/walls.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/.gitignore",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/index.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/crags.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/Gruntfile.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/homeController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/home.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/404.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/assets/css/styles.less",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/prod/css/libs.min.css",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/prod/css/production.min.css",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/prod/js/production.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/prod/css/production.css",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/prod/css/production.less",
+		"/C/Users/Sam/.bashrc",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/prod/index.html",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/login.html",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/Gruntfile.js",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/assets/img/test.jpg",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/prod/production.less",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/Login.html",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/index.html",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/package.json",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/.bowerrc",
 		"/C/Users/Sam/Desktop/personal/CragProject/assets/js/config/routes.js",
@@ -179,7 +240,6 @@
 		"/C/Users/Sam/Desktop/personal/Soup.ly/views/layout.ejs",
 		"/C/Users/Sam/Desktop/personal/Soup.ly/api/models/Project.js",
 		"/C/Users/Sam/Desktop/personal/Soup.ly/views/homepage.ejs",
-		"/C/Users/Sam/.bashrc",
 		"/C/Users/Sam/z.sh",
 		"/C/Users/Sam/Desktop/Personal 2/Forus/header.php",
 		"/C/Users/Sam/Desktop/Personal 2/Forus/downloads.php",
@@ -231,31 +291,7 @@
 		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/assets/linker/styles/framework/config.less",
 		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/views/DEV/login.ejs",
 		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/views/layout.ejs",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/package.json",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/assets/linker/styles/framework/souply.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/config/routes.js",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/assets/linker/js/scripts.js",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/views/DEV/tasks.ejs",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/sftp-config.json",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/forms.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/mixins.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/buttons.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/config.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/index.php",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/souply.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/tags.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/vendor/bs_mixins.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/typeface.less",
-		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/scaffolding.less",
-		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/responsive-utilities.less",
-		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/code.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/vendor/mixins.less",
-		"/C/Users/Sam/AppData/Local/Temp/fz3temp-1/index.php",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/.gitignore",
-		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/variables.less",
-		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/mixins.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly/assets/linker/styles/Souply/normalize.css",
-		"/C/Users/Sam/Downloads/bootstrap-3.0.2/bootstrap-3.0.2/less/grid.less"
+		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/package.json"
 	],
 	"find":
 	{
@@ -277,6 +313,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"signup",
+			"crag",
+			"$route.current",
+			"crag",
+			"wall",
+			"<li>",
+			"</li>",
+			"href",
+			"=\"/#/\"></",
 			"watch",
 			"jQuery",
 			"@media",
@@ -395,16 +440,7 @@
 			"text",
 			"src",
 			"url",
-			";\n",
-			"  <footer>\n    <ul>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n      <li>Test page</li>\n    </ul>\n  </footer>",
-			"false",
-			"October",
-			"enweek",
-			"Two",
-			"#",
-			"<i class=\"icon icon-download\"></i>",
-			"OR",
-			"WHERE"
+			";\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -422,23 +458,116 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gruntfile.js",
+					"file": "app/templates/home.html",
 					"settings":
 					{
-						"buffer_size": 2355,
+						"buffer_size": 3249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1474,
-								1474
+								3191,
+								3191
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/styles.less",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "app/config/routes.js",
+					"settings":
+					{
+						"buffer_size": 1853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1442,
+								1442
 							]
 						],
 						"settings":
@@ -449,25 +578,25 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1430.0,
+						"translation.y": 990.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "index.html",
+					"buffer": 4,
+					"file": "app/templates/profile.html",
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 21,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								15,
+								15
 							]
 						],
 						"settings":
@@ -503,11 +632,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.42298136646,
 			1.0
 		],
 		"rows":
@@ -554,6 +690,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 241.0,
+	"side_bar_width": 310.0,
 	"status_bar_visible": true
 }

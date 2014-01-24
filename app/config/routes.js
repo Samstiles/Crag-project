@@ -31,7 +31,7 @@ app.config(function($routeProvider, $locationProvider) {
     templateUrl: '/templates/crag.html',
     controller: 'cragController',
     resolve: {
-      "crag": function ($route) {
+      "cragId": function ($route) {
         return $route.current.params.cragId;
       }
     }
