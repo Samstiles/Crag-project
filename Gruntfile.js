@@ -53,6 +53,13 @@ module.exports = function(grunt) {
         src: ['assets/img/**'],
         dest: 'prod/img/',
         filter: 'isFile'
+      },
+      favicon: {
+        expand: true,
+        flatten: true,
+        src: ['favicon.ico'],
+        dest: 'prod/',
+        filter: 'isFile'
       }
     },
 
