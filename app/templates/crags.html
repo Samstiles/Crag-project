@@ -1,10 +1,10 @@
 <div id="crag-list">
   <div class="col-xs-8">
     <div class="list">
-      <div class="crag">
-        <img src="http://placekitten.com/100/100" alt="Route Pic">
-        <h3>Cochrane Lane</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, omnis, aliquam praesentium cumque nemo magnam non rem et beatae obcaecati dicta minus est necessitatibus recusandae quia architecto sint dolor optio reiciendis consectetur ea molestias harum voluptate. Vel, illo, placeat sequi molestias facilis omnis nisi.<a href="/#/crag/1"> View Crag</a></p>
+      <div class="crag" ng-repeat="crag in state.crags">
+        <img src="{{ crag.thumbnail_image_url }}" alt="Route Pic">
+        <h3>{{ crag.name }} | {{ crag.number_of_walls }} walls</h3>
+        <p>{{ crag.description }}<a href="/#/crag/{{ crag.id }}"> View Crag</a></p>
       </div>
     </div>
   </div>
