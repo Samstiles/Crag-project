@@ -2,39 +2,33 @@ app.config(function($routeProvider, $locationProvider) {
 
   $routeProvider
 
-  // Homepage
-  .when('/', {
-    templateUrl: '/templates/home.html',
-    controller: 'homeController'
-  })
-
   // List of all crags in DB
   .when('/crags/', {
     templateUrl: '/templates/crags.html',
     controller: 'cragListController'
   })
 
-  // List of all walls in DB
-  .when('/walls/', {
-    templateUrl: '/templates/walls.html',
-    controller: 'wallListController'
+  // View specific crag
+  .when('/crag/:cragId', {
+    templateUrl: '/templates/crag.html',
+    controller: 'cragDetailsController',
+    resolve: {
+      "cragId": function ($route) {
+        return $route.current.params.cragId;
+      }
+    }
+  })
+
+  // Homepage
+  .when('/', {
+    templateUrl: '/templates/home.html',
+    controller: 'homeController'
   })
 
   // List of all routes in DB
   .when('/routes/', {
     templateUrl: '/templates/routes.html',
     controller: 'routeListController'
-  })
-
-  // View specific crag
-  .when('/crag/:cragId', {
-    templateUrl: '/templates/crag.html',
-    controller: 'cragController',
-    resolve: {
-      "cragId": function ($route) {
-        return $route.current.params.cragId;
-      }
-    }
   })
 
   // View specific wall

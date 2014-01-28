@@ -5,14 +5,21 @@
   <title>Crag Project (WIP)</title>
   <link rel="stylesheet" type="text/css" href="/css/libs.min.css"/>
   <link rel="stylesheet" type="text/css" href="/css/production.min.css"/>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
 
   <nav>
-    <img src="img/logo.svg" alt="Crag Project | Home Page" height="50" class="logo">
+    <div class="container">
+      <h1><a href="/#/">CragProject</a></h1>
+      <div class="nav-item"><a href="/#/crags">Crags</a></div>
+      <div class="nav-item"><a href="/#/routes">Routes</a></div>
+      <div class="nav-item"><a href="/#/feed">Activity Feed</a></div>
+      <div class="nav-item"><a href="/#/profile">Profile</a></div>
+    </div>
   </nav>
 
-  <div class="container angular-wrapper">
+  <div class="container">
     <!-- Angular Injection Point -->
     <div class="content-wrapper" ng-view></div>
     <!-- /Angular Injection Point -->

@@ -10,6 +10,7 @@ module.exports = function(grunt) {
           'assets/lib/angular/angular.js',
           'assets/lib/angular-route/angular-route.js',
           'assets/lib/angular-sanitize/angular-sanitize.js',
+          'assets/lib/angular-bootstrap/ui-bootstrap-tpls.js',
           'app/**/*.js'
         ],
         dest: 'prod/js/production.min.js'
