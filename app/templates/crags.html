@@ -1,6 +1,7 @@
 <section id="crag-list">
   <div class="col-xs-8">
     <div class="list">
+
       <div class="crag" ng-repeat="crag in state.crags">
         <div class="crag-image">
           <img src="{{ crag.thumbnail_image_url }}" alt="Route Pic">
@@ -10,10 +11,11 @@
           <p>{{ crag.description }}</p>
         </div>
         <div class="crag-buttons">
-          <button class="button-goto">Crag Overview</button>
-          <button class="button-goto">Routes</button>
+          <a href="/#/crag/{{ crag.id }}" class="button-goto">Crag Overview</a>
+          <a href="/#/crag/{{ crag.id }}/routes" class="button-goto">Routes</a>
         </div>
       </div>
+
     </div>
   </div>
   <div class="col-xs-4">

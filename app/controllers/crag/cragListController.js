@@ -1,7 +1,9 @@
 app.controller('cragListController', function($scope, $modal, $log){
 
   // Prepare the state object
-  $scope.state = {};
+  $scope.state = {
+    crag: {}
+  };
 
   $scope.state.crags = [
     {
@@ -25,7 +27,8 @@ app.controller('cragListController', function($scope, $modal, $log){
   $scope.state.openNewCragModal = function() {
     var newCragModal = $modal.open({
       templateUrl: '/templates/newCrag.html',
-      controller: 'cragNewController'
+      controller: 'cragNewController',
+      windowClass: 'newCragModal'
     });
 
     newCragModal.result.then(function(newCrag) {
