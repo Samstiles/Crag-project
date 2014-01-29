@@ -68,10 +68,50 @@
 	"buffers":
 	[
 		{
-			"file": "app/templates/home.html",
+			"file": "app/controllers/crag/cragListController.js",
 			"settings":
 			{
-				"buffer_size": 3249,
+				"buffer_size": 1425,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/crag/cragNewController.js",
+			"settings":
+			{
+				"buffer_size": 292,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/directives/ngRepeatReverseDirective.js",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/modals/newCrag.html",
+			"settings":
+			{
+				"buffer_size": 1462,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/styles.less",
+			"settings":
+			{
+				"buffer_size": 1959,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/crags.html",
+			"settings":
+			{
+				"buffer_size": 611,
 				"line_ending": "Windows"
 			}
 		}
@@ -132,17 +172,23 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/Gruntfile.js",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/crag.html",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/home.html",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/assets/css/styles.less",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/index.html",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/package.json",
+		"/C/Users/Sam/AppData/Roaming/Sublime Text 2/Packages/User/angularlog.sublime-snippet",
+		"/C/Users/Sam/AppData/Roaming/Sublime Text 2/Packages/User/stringify.sublime-snippet",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/crags.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/modals/newCrag.html",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/config/routes.js",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/cragController.js",
-		"/C/Users/Sam/AppData/Roaming/Sublime Text 2/Packages/User/loremwithtags.sublime-snippet",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/Gruntfile.js",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/config/app.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/crag/cragNewController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/cragController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/cragListController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/crag/cragController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/assets/css/styles.less",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/crag.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/index.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/home.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/package.json",
+		"/C/Users/Sam/AppData/Roaming/Sublime Text 2/Packages/User/loremwithtags.sublime-snippet",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/profile.html",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/signupController.js",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/profileController.js",
@@ -253,13 +299,7 @@
 		"/C/Users/Sam/Desktop/Personal/SouplyFE/views/layout.ejs",
 		"/C/Program Files (x86)/Git/doc/git/html/git-remote.html",
 		"/C/Users/Sam/Desktop/Personal/SouplyFE/config/routes.js",
-		"/C/Users/Sam/Desktop/Personal/SouplyFE/package.json",
-		"/C/Users/Sam/Desktop/Personal/SouplyFE/assets/linker/styles/souply.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/souply_fe/Gruntfile.js",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/Gruntfile.js",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/assets/linker/styles/styles.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/assets/linker/styles/framework/config.less",
-		"/C/Users/Sam/Desktop/Personal/Soup.ly Frontend/views/DEV/login.ejs"
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/package.json"
 	],
 	"find":
 	{
@@ -281,6 +321,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ng-required=\"true\"",
+			"input",
+			"2",
+			"230",
 			"0 8px 6px -6px",
 			"rgb(51, 51, 51)",
 			"black",
@@ -404,11 +448,7 @@
 			"- ",
 			"beaucss.com",
 			"3",
-			"posts",
-			")",
-			"3",
-			"slug",
-			"/post"
+			"posts"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -426,23 +466,164 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/templates/home.html",
+					"file": "app/controllers/crag/cragListController.js",
 					"settings":
 					{
-						"buffer_size": 3249,
+						"buffer_size": 1425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								638,
+								638
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 110.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/crag/cragNewController.js",
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/directives/ngRepeatReverseDirective.js",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/templates/modals/newCrag.html",
+					"settings":
+					{
+						"buffer_size": 1462,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1140,
+								1140
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 220.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/css/styles.less",
+					"settings":
+					{
+						"buffer_size": 1959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1630,
+								1630
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/templates/crags.html",
+					"settings":
+					{
+						"buffer_size": 611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
 							]
 						],
 						"settings":
@@ -458,6 +639,11 @@
 					},
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -478,11 +664,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.731182795699,
 			1.0
 		],
 		"rows":
@@ -529,6 +722,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 172.0,
+	"side_bar_width": 212.0,
 	"status_bar_visible": true
 }

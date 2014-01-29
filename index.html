@@ -6,24 +6,25 @@
   <link rel="stylesheet" type="text/css" href="/css/libs.min.css"/>
   <link rel="stylesheet" type="text/css" href="/css/production.min.css"/>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-  <nav>
-    <div class="container">
-      <h1><a href="/#/">CragProject</a></h1>
-      <div class="nav-item"><a href="/#/crags">Crags</a></div>
-      <div class="nav-item"><a href="/#/routes">Routes</a></div>
-      <div class="nav-item"><a href="/#/feed">Activity Feed</a></div>
-      <div class="nav-item"><a href="/#/profile">Profile</a></div>
-    </div>
+  <nav class="primary-nav">
+    <h1>
+      <a href="/#/">
+      <img src="/img/logo.png" alt="Crag Project Logo">CragProject</a>
+    </h1>
+    <a class="nav-item crags" href="/#/crags">Crags</a>
+    <a class="nav-item routes" href="/#/routes">Routes</a>
+    <a class="nav-item profile" href="/#/routes">Profile</a>
+    <a class="nav-item signout" href="/#/routes">Sign Out</a>
+    <a class="nav-item settings" href="/#/routes">Settings</a>
   </nav>
 
-  <div class="container">
-    <!-- Angular Injection Point -->
-    <div class="content-wrapper" ng-view></div>
-    <!-- /Angular Injection Point -->
-  </div>
+  <!-- Angular Injection Point -->
+  <div class="container content-wrapper" ng-view></div>
+  <!-- /Angular Injection Point -->
 
   <script type="text/javascript" src="js/production.min.js"></script>
   <script src="//localhost:35729/livereload.js"></script>

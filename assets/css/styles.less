@@ -1,115 +1,233 @@
 // Common colors / variables
-@common_border_radius: 4px;
-@primary_red: #D2322D;
-@primary_grayblack: rgb(51, 51, 51, 1.0);
+@common_border_radius: 1px;
+@primary_green_dark: #5cb85c;
+@primary_green_bg: #7AF5D3;
+@primary_black_font: #333333;
+@alt_green_1: #398439;
+@alt_green_2: #4cae4c;
+@alt_green_3: #357935;
+@white: #ffffff;
+@generic_grey: #eeeeee;
 
-// Misc wrapper styling
-.content-wrapper {
-  margin-top: 85px;
-}
-.btn {
-  border-radius: 0;
-}
+
+/*
+ * -- Global Styles --
+ */
 body {
-  background: url('/img/bg(3).png');
-}
-.container {
-  min-width: 940px;
-}
 
-// Nav
-nav {
-  height: 65px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  background: #E6E6E6;
-  border-bottom: 2px solid darken(#E6E6E6, 10%);
-  -webkit-box-shadow: 0px 7px 7px 0px rgba(205, 205, 205, 0.76);
-  -moz-box-shadow:    0px 7px 7px 0px rgba(205, 205, 205, 0.76);
-  box-shadow:         0px 7px 7px 0px rgba(205, 205, 205, 0.76);
+  * {
+    -webkit-transition: all 150ms ease;
+    -moz-transition: all 150ms ease;
+    -ms-transition: all 150ms ease;
+    -o-transition: all 150ms ease;
+    transition: all 150ms ease;
+  }
+
+  // Body BG
+  background: url('/img/bg.png');
+
+  // Global font
+  font-family: 'Roboto', sans-serif;
+
+  // Re-apply global font since bootstrap overrides...
+  h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  // Heavy headings!
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    color: @alt_green_3;
+  }
+
+  // Default paragraph text styling
+  p {
+    font-weight: 400;
+    color: @primary_black_font;
+  }
+
+  // Button having to do with creating / starting somethign new
+  .button-create {
+    border-radius: @common_border_radius;
+    background: @primary_green_dark;
+    border: 1px solid @alt_green_2;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: @white;
+    height: 35px;
+    width: 100%;
+
+    i {
+      font-size: 14px;
+    }
+
+
+    &:hover {
+      background: @alt_green_3;
+    }
+  }
+
+  // Buttons that are basically links (goto)
+  .button-goto {
+    border-radius: @common_border_radius;
+    background: @generic_grey;
+    border: 1px solid darken(@generic_grey, 10%);
+    color: @alt_green_3;
+    letter-spacing: 1px;
+    font-size: 17px;
+    height: 35px;
+    width: 100%;
+
+    i {
+      font-size: 14px;
+    }
+
+
+    &:hover {
+      background: darken(@generic_grey, 10%);
+    }
+  }
+
+  // Remove BS responsiveness for now
+  .container {
+    min-width: 1170px;
+  }
+
+  // Site section styling
+  .content-wrapper {
+    background: @white;
+    padding: 30px 15px 30px 15px;
+    border-radius: @common_border_radius;
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  }
+
+  // Global anchor styling
+  a {
+    text-decoration: underline;
+    color: @primary_green_dark;
+
+    &:hover {
+      color: darken(@primary_green_dark, 20%);
+    }
+  }
+}
+/*
+ * -- END Global Styles --
+ */
+
+/*
+ * -- Primary Navigation --
+ */
+nav.primary-nav {
+  clear: both;
+  width: 1250px;
+  margin: 0 auto;
+
+  a {
+    text-decoration: none;
+  }
 
   h1 {
+    display: inline-block;
     margin: 0;
-    padding: 0;
-    line-height: 65px;
-    display: block;
-    float: left;
-    margin-left: 50px;
+    padding: 0 60px 0 0;
+    line-height: 80px;
+    vertical-align: top;
+    letter-spacing: -2px;
+    font-weight: 800;
   }
 
   .nav-item {
-    display: block;
-    float: left;
-    line-height: 65px;
-    height: 100%;
-    font-size: 20px;
-    margin: 0 20px;
-    padding: 0;
+    display: inline-block;
+    padding: 0 30px;
+    vertical-align: top;
+    font-size: 17px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 36px;
 
-    &:first-of-type {
-      margin-left: 50px;
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.crags {
+      padding-left: 60px;
+    }
+
+    &.crags, &.signout {
+      border-left: 1px solid @primary_green_dark;
+    }
+
+    &.signout, &.settings {
+      float: right;
+    }
+
+    &.signout {
+      padding-right: 0;
     }
   }
 }
+/*
+ * -- END Primary Navigation --
+ */
 
-// Container for the crag details page
-#crag-details {
-  // Hero image
-  .crag-hero-image {
-    width: 100%;
-    height: 300px;
-    border-radius: @common_border_radius;
-    -webkit-background-size: cover !important;
-    -moz-background-size: cover !important;
-    -o-background-size: cover !important;
-    background-size: cover !important;
-  }
-
-  h1, .crag-location {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  h1 {
-    margin-top: 10px;
-  }
-}
-
-// Container for the crag list page
-#crag-list {
+/*
+ * -- Crag List View --
+ */
+section#crag-list {
 
   .list {
+    padding-right: 30px;
+    border-right: 2px solid @generic_grey;
 
     .crag {
-      border-bottom: 2px solid darken(#E6E6E6, 10%);
-      min-height: 126px;
+      min-height: 125px;
+      clear: both;
 
-      img {
+      .crag-buttons {
         float: left;
-        padding-right: 20px;
-        margin-top: 10px;
+        width: 20%;
+
+        button {
+          margin-top: 5px;
+          font-size: 14px;
+
+          &:first-of-type {
+            margin-top: 20px;
+          }
+        }
       }
-    }
 
-  }
+      .crag-image {
+        position: relative;
+        float: left;
+        width: 20%;
+        text-align: center;
 
-  .sidebar {
-    min-height: 500px;
-    padding-left: 20px;
-    border-left: 2px solid darken(#E6E6E6, 10%);
+        img {
+          border-radius: @common_border_radius;
+        }
+      }
 
-    .btn {
-      width: 100%;
-      font-size: 20px;
+      .crag-text {
+        float: left;
+        width: 60%;
+        padding-right: 20px;
 
-      i {
-        font-size: 16px;
+        p, h3 {
+          margin: 0;
+          padding: 0;
+        }
+
+        h3 {
+          margin-bottom: 6px;
+        }
       }
     }
   }
 }
+/*
+ * -- END Crag List View --
+ */
