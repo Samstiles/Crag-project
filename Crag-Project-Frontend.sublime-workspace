@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"primary_",
+				"primary_black_font"
+			],
+			[
 				"remove",
 				"removeComments"
 			],
@@ -67,54 +75,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/controllers/crag/cragListController.js",
-			"settings":
-			{
-				"buffer_size": 1425,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/crag/cragNewController.js",
-			"settings":
-			{
-				"buffer_size": 292,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/directives/ngRepeatReverseDirective.js",
-			"settings":
-			{
-				"buffer_size": 107,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/templates/modals/newCrag.html",
-			"settings":
-			{
-				"buffer_size": 1462,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/css/styles.less",
-			"settings":
-			{
-				"buffer_size": 1959,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/templates/crags.html",
-			"settings":
-			{
-				"buffer_size": 611,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -172,20 +132,23 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/assets/css/styles.less",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/index.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/services/DummyDataService.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/crags.html",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/crag/cragListController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/crag/cragNewController.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/directives/ngRepeatReverseDirective.js",
+		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/modals/newCrag.html",
 		"/C/Users/Sam/AppData/Roaming/Sublime Text 2/Packages/User/angularlog.sublime-snippet",
 		"/C/Users/Sam/AppData/Roaming/Sublime Text 2/Packages/User/stringify.sublime-snippet",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/crags.html",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/modals/newCrag.html",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/config/routes.js",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/Gruntfile.js",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/config/app.js",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/crag/cragNewController.js",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/cragController.js",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/cragListController.js",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/controllers/crag/cragController.js",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/assets/css/styles.less",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/crag.html",
-		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/index.html",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/app/templates/home.html",
 		"/C/Users/Sam/Desktop/personal/Crag-Project-Frontend/package.json",
 		"/C/Users/Sam/AppData/Roaming/Sublime Text 2/Packages/User/loremwithtags.sublime-snippet",
@@ -296,10 +259,7 @@
 		"/C/Users/Sam/Desktop/Personal/SouplyFE/assets/linker/styles/framework/mixins.less",
 		"/C/Users/Sam/Desktop/Personal/SouplyFE/views/DEV/login.ejs",
 		"/C/Users/Sam/Desktop/Personal/SouplyFE/assets/linker/styles/framework/forms.less",
-		"/C/Users/Sam/Desktop/Personal/SouplyFE/views/layout.ejs",
-		"/C/Program Files (x86)/Git/doc/git/html/git-remote.html",
-		"/C/Users/Sam/Desktop/Personal/SouplyFE/config/routes.js",
-		"/C/Users/Sam/Desktop/Personal/SouplyFE/package.json"
+		"/C/Users/Sam/Desktop/Personal/SouplyFE/views/layout.ejs"
 	],
 	"find":
 	{
@@ -321,6 +281,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ateY(3px)",
+			"3px",
+			"-goto",
+			"goto",
+			"#",
+			"#50BD9F",
+			"rgba(205, 205, 205, 0.76)",
 			"ng-required=\"true\"",
 			"input",
 			"2",
@@ -441,14 +408,7 @@
 			"2",
 			"1",
 			"left",
-			"15s",
-			"e7e7e7",
-			"div",
-			"<img",
-			"- ",
-			"beaucss.com",
-			"3",
-			"posts"
+			"15s"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -466,179 +426,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/controllers/crag/cragListController.js",
-					"settings":
-					{
-						"buffer_size": 1425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								638,
-								638
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 110.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/controllers/crag/cragNewController.js",
-					"settings":
-					{
-						"buffer_size": 292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								279,
-								279
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/directives/ngRepeatReverseDirective.js",
-					"settings":
-					{
-						"buffer_size": 107,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								107
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/templates/modals/newCrag.html",
-					"settings":
-					{
-						"buffer_size": 1462,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1140,
-								1140
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 220.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/css/styles.less",
-					"settings":
-					{
-						"buffer_size": 1959,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1630,
-								1630
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 330.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/templates/crags.html",
-					"settings":
-					{
-						"buffer_size": 611,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								123,
-								123
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -675,7 +464,7 @@
 		"cols":
 		[
 			0.0,
-			0.731182795699,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -713,7 +502,7 @@
 		[
 			[
 				"",
-				"/C/Users/Sam/Desktop/work/dev/BioAtlantech/BioAtlantech.sublime-project"
+				"/C/Users/Sam/Desktop/personal/Soup.ly/config/Soup.ly Tasks.sublime-project"
 			]
 		],
 		"width": 380.0

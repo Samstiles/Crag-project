@@ -13,8 +13,7 @@
     "node_modules",
     "bower_components",
     "assets/lib/",
-    "test",
-    "tests"
+    "test"
   ],
   "devDependencies": {
     "angular-route": "~1.2.10",
