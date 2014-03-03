@@ -2,6 +2,11 @@ app.config(function($routeProvider, $locationProvider) {
 
   $routeProvider
 
+  .when('/search/', {
+    templateUrl: '/templates/search.html',
+    controller: 'searchController'
+  })
+
   // View a Map of all Crags
   .when('/map/', {
     templateUrl: '/templates/map.html',
