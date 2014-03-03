@@ -143,13 +143,16 @@ body {
 
   // Global anchor styling
   a {
-    outline: 0;
+    outline: none;
     text-decoration: underline;
     color: @primary_green_dark;
 
     &:hover {
       color: darken(@primary_green_dark, 20%);
-      outline: 0;
+      outline: none;
+    }
+    &:active {
+      outline: none;
     }
   }
 }
@@ -167,6 +170,7 @@ nav.primary-nav {
 
   a {
     text-decoration: none;
+    outline: none;
   }
 
   h1 {
@@ -180,6 +184,7 @@ nav.primary-nav {
   }
 
   .nav-item {
+    outline: none;
     display: inline-block;
     padding: 0 30px;
     vertical-align: top;

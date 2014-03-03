@@ -32,8 +32,5 @@
     "angular-ui-router": "~0.2.8",
     "angular-mocks": "~1.2.10",
     "angular-bootstrap": "~0.10.0"
-  },
-  "resolutions": {
-    "angular": "1.2.10"
   }
 }
