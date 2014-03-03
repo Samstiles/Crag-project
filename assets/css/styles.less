@@ -55,11 +55,11 @@ body {
     letter-spacing: 1px;
     font-size: 17px;
     color: @white;
-    height: 35px;
-    width: 100%;
+    height: 32px;
+    width: 32px;
     display: block;
     text-align: center;
-    line-height: 32px;
+    line-height: 30px;
     text-decoration: none;
     outline: none;
 
@@ -228,51 +228,64 @@ nav.primary-nav {
  */
 section#crag-list {
 
-  .list {
-    padding-right: 30px;
-    border-right: 2px solid @generic_grey;
+  .crags {
+    .crags-menu {
+      float: right;
+      width: 40px;
+    
+      .button-create {
+        margin-left: 9px;
+        position: relative;
+      }
+    }
+    
+    .list {
+      margin-right: 40px;
+      padding-right: 30px;
+      border-right: 2px solid @generic_grey;
 
-    .crag {
-      min-height: 125px;
-      clear: both;
+      .crag {
+        min-height: 125px;
+        clear: both;
 
-      .crag-buttons {
-        float: left;
-        width: 20%;
+        .crag-buttons {
+          float: left;
+          width: 20%;
 
-        .button-create, .button-plain {
-          margin-top: 5px;
-          font-size: 14px;
+          .button-create, .button-plain {
+            margin-top: 5px;
+            font-size: 14px;
 
-          &:first-of-type {
-            margin-top: 20px;
+            &:first-of-type {
+              margin-top: 20px;
+            }
           }
         }
-      }
 
-      .crag-image {
-        position: relative;
-        float: left;
-        width: 20%;
-        text-align: center;
+        .crag-image {
+          position: relative;
+          float: left;
+          width: 20%;
+          text-align: center;
 
-        img {
-          border-radius: @image_border_radius;
-        }
-      }
-
-      .crag-text {
-        float: left;
-        width: 60%;
-        padding-right: 20px;
-
-        p, h3 {
-          margin: 0;
-          padding: 0;
+          img {
+            border-radius: @image_border_radius;
+          }
         }
 
-        h3 {
-          margin-bottom: 6px;
+        .crag-text {
+          float: left;
+          width: 60%;
+          padding-right: 20px;
+
+          p, h3 {
+            margin: 0;
+            padding: 0;
+          }
+
+          h3 {
+            margin-bottom: 6px;
+          }
         }
       }
     }

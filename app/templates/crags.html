@@ -1,7 +1,11 @@
 <section id="crag-list">
-  <div class="col-xs-8">
+  <div class="crags">
+    <div class="crags-menu">
+      <button class="button-create" type="button" ng-click="state.openNewCragModal()">
+        <i class="fa fa-plus"></i>
+      </button>
+    </div>
     <div class="list">
-
       <div class="crag" ng-repeat="crag in state.crags">
         <div class="crag-image">
           <img src="{{ crag.thumbnail_image_url }}" alt="Route Pic">
@@ -15,14 +19,7 @@
           <a href="/#/crag/{{ crag.id }}/routes" class="button-plain">Routes</a>
         </div>
       </div>
+    </div>
+  </div>
 
-    </div>
-  </div>
-  <div class="col-xs-4">
-    <div class="sidebar">
-      <button class="button-create" type="button" ng-click="state.openNewCragModal()">
-        <i class="fa fa-plus"></i> Add a new crag
-      </button>
-    </div>
-  </div>
 </section>
