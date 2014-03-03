@@ -2,6 +2,12 @@ app.config(function($routeProvider, $locationProvider) {
 
   $routeProvider
 
+  // View a Map of all Crags
+  .when('/map/', {
+    templateUrl: '/templates/map.html',
+    controller: 'mapController'
+  })
+
   // List of all crags in DB
   .when('/crags/', {
     templateUrl: '/templates/crags.html',

@@ -12,6 +12,8 @@ app.service("DummyDataService", function(UtilService){
         crag.description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, delectus, doloremque necessitatibus velit deleniti tempore ratione distinctio dolor sequi aliquam.";
         crag.number_of_walls = UtilService.randomNumber(3, 18);
         crag.number_of_routes = UtilService.randomNumber(45,350);
+        crag.lon = UtilService.randomLatLon();
+        crag.lat = UtilService.randomLatLon();
 
         crags.push(crag);
       }
