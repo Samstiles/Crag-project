@@ -23,7 +23,8 @@ module.exports = function(grunt) {
       },
       css: {
         src: [
-          'assets/css/**/*.less'
+          'assets/css/**/*.less',
+          'assets/css/**/*.css'
         ],
         dest: 'prod/css/production.less'
       }

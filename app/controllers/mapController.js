@@ -1,3 +1,7 @@
-app.controller('homeController', function($scope, $http){
-
+app.controller('mapController', function($scope, $http){
+  angular.extend($scope, {
+      defaults: {
+          scrollWheelZoom: false
+      }
+  });
 });
