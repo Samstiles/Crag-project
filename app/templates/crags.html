@@ -11,7 +11,10 @@
           <img src="{{ crag.thumbnail_image_url }}" alt="Route Pic">
         </div>
         <div class="crag-text">
-          <h3>{{ crag.name }} | {{ crag.number_of_walls }} walls | {{ crag.number_of_routes }} routes</h3>
+          <h3><a href="/#/crag/{{crag.id }}">{{ crag.name }}</a></h3>
+          <div class="crag-attrib">
+            <i class="fa fa-ellipsis-v"></i> <a href="/#/crag/{{crag.id }}">{{ crag.number_of_walls }} walls</a> | <i class="fa fa-ellipsis-v"></i> <a href="/#/crag/{{ crag.id }}/routes">{{ crag.number_of_routes }} routes</a> | <rating value="crag.rating" state-on="'fa fa-star'" state-off="'fa fa-star-o'" readonly=true></rating>
+          </div>
           <p>{{ crag.description }}</p>
         </div>
         <div class="crag-buttons">

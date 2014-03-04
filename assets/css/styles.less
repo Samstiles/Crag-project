@@ -223,6 +223,21 @@ nav.primary-nav {
  */
 
 /*
+ * -- Search View --
+ */
+section#search {
+  .search {
+    width: 100%;
+    font-size: 22px;
+    text-align: center
+  }
+  
+  .filter {
+  
+  }
+}
+
+/*
  * -- Crag List View --
  */
 section#crag-list {
@@ -277,6 +292,22 @@ section#crag-list {
           float: left;
           width: 60%;
           padding-right: 20px;
+
+          .crag-attrib {
+            color: #333333;
+            font-size: 16px;
+            
+            a {
+              color: #333333;
+            }
+            a:hover {
+              text-decoration: underline;
+            }
+          }
+          a {
+            color: @alt_green_2;
+            text-decoration: none;
+          }
 
           p, h3 {
             margin: 0;
