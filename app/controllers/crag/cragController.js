@@ -3,8 +3,6 @@ app.controller('cragController', function($scope, cragId){
   // Prepare the state object
   $scope.state = {};
 
-    console.log("tes");
-
   // Dummy crag object until I get API set up
   // Also putting it here temporarily until I get the service done
   var dummyCrag = {

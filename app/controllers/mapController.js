@@ -6,8 +6,6 @@ app.controller('mapController', function($scope, $http, DummyDataService, UtilSe
 
   $scope.markers = new Array();
 
-  console.log("test");
-
   L.Icon.Default.imagePath = '/img/';
 
   for (var index = 0; index < $scope.state.crags.length; index++) {
@@ -16,6 +14,5 @@ app.controller('mapController', function($scope, $http, DummyDataService, UtilSe
       lng: $scope.state.crags[index].lon,
       message: $scope.state.crags[index].name
     });
-    console.log($scope.markers);
   }
 });
