@@ -19,6 +19,17 @@ app.service("DummyDataService", function(UtilService){
         crags.push(crag);
       }
       return crags;
+    },
+    
+    randomRoute: function(){
+      var route = {};
+      route.name = "The Masochist";
+      route.image_url = "http://lorempixel.com/100/100/nature/" + UtilService.randomNumber(0,10).toString();
+      route.description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, delectus, doloremque necessitatibus velit deleniti tempore ratione distinctio dolor sequi aliquam.";
+      route.grade = "5." + UtilService.randomNumber(4,15);
+      route.rating = UtilService.randomNumber(0,5);
+      
+      return route;
     }
   }
 
