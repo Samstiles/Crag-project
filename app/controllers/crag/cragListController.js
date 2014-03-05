@@ -2,7 +2,6 @@ app.controller('cragListController', function($scope, $modal, $log, DummyDataSer
 
   // Prepare the state object
   $scope.state = {};
-
   $scope.state.crags = DummyDataService.randomArrayOfCrags(UtilService.randomNumber(5,15));
 
   $scope.state.openNewCragModal = function() {

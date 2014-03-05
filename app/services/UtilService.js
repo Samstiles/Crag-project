@@ -8,9 +8,15 @@ app.service("UtilService", function(){
       return Math.floor(Math.random()*(endInt-startInt+1)+startInt);
     },
     
-    randomLatLon: function(){
+    randomLat: function(){
       var from = -180;
       var to = 180;
+      
+      return (Math.random() * (to - from) + from).toFixed(3) * 1;
+    },
+    randomLon: function(){
+      var from = -90;
+      var to = 90;
       
       return (Math.random() * (to - from) + from).toFixed(3) * 1;
     }
