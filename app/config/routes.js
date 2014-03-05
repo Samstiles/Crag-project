@@ -22,7 +22,7 @@ app.config(function($routeProvider, $locationProvider) {
   // View specific crag
   .when('/crag/:cragId', {
     templateUrl: '/templates/crag.html',
-    controller: 'cragDetailsController',
+    controller: 'cragController',
     resolve: {
       "cragId": function ($route) {
         return $route.current.params.cragId;
