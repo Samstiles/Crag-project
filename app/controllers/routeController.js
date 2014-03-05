@@ -2,7 +2,4 @@ app.controller('routeController', function($scope, $http, route, DummyDataServic
   $scope.state = {};
   $scope.state.route = DummyDataService.randomRoute();
   $scope.state.route.routeID = route;
-  
-  
-  console.log($scope.state.route);
 });
