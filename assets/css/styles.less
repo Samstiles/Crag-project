@@ -1,5 +1,6 @@
 // Common colors / variables
 @common_border_radius: 2px;
+@image_border_radius: 6px;
 @primary_green_dark: #5cb85c;
 @primary_green_bg: #7AF5D3;
 @primary_black_font: #333333;
@@ -54,11 +55,11 @@ body {
     letter-spacing: 1px;
     font-size: 17px;
     color: @white;
-    height: 35px;
-    width: 100%;
+    height: 32px;
+    width: 32px;
     display: block;
     text-align: center;
-    line-height: 32px;
+    line-height: 30px;
     text-decoration: none;
     outline: none;
 
@@ -134,7 +135,6 @@ body {
   // Site section styling
   .content-wrapper {
     background: @white;
-    padding: 30px 15px 30px 15px;
     border-radius: @common_border_radius;
     -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3);
     -moz-box-shadow: 0 0 6px rgba(0,0,0,0.3);
@@ -143,11 +143,16 @@ body {
 
   // Global anchor styling
   a {
+    outline: none;
     text-decoration: underline;
     color: @primary_green_dark;
 
     &:hover {
       color: darken(@primary_green_dark, 20%);
+      outline: none;
+    }
+    &:active {
+      outline: none;
     }
   }
 }
@@ -165,6 +170,7 @@ nav.primary-nav {
 
   a {
     text-decoration: none;
+    outline: none;
   }
 
   h1 {
@@ -178,6 +184,7 @@ nav.primary-nav {
   }
 
   .nav-item {
+    outline: none;
     display: inline-block;
     padding: 0 30px;
     vertical-align: top;
@@ -193,21 +200,21 @@ nav.primary-nav {
     &:hover {
       text-decoration: underline;
     }
-
-    &.crags {
+    
+    &.map {
       padding-left: 60px;
     }
 
-    &.crags, &.signout {
+    &.map, &.signout {
       border-left: 1px solid @primary_green_dark;
     }
 
-    &.signout, &.settings {
+    &.signout, &.settings, &.profile {
       float: right;
     }
 
     &.signout {
-      padding-right: 0;
+      padding-right: 20px;
     }
   }
 }
@@ -216,55 +223,118 @@ nav.primary-nav {
  */
 
 /*
+ * -- Search View --
+ */
+section#search {
+  .search {
+    width: 100%;
+    font-size: 22px;
+    text-align: center
+  }
+  
+  .filter {
+  
+  }
+}
+/*
+ * -- Map List View
+ */
+section#map {
+  .row {
+    position: relative;
+  }
+  .filter {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #F2F1F5;
+    float: right;
+    border-radius: @image_border_radius;
+    text-align: center;
+    line-height: 32px;
+  }
+}
+/*
  * -- Crag List View --
  */
 section#crag-list {
+  .crags {
+    .crags-menu {
+      float: right;
+      width: 40px;
+    
+      .button-create {
+        margin-left: 10px;
+        margin-top: 10px;
+        position: relative;
+      }
+    }
+    
+    .list {
+      margin-right: 40px;
+      padding-right: 30px;
+      border-right: 2px solid @generic_grey;
 
-  .list {
-    padding-right: 30px;
-    border-right: 2px solid @generic_grey;
+      .crag {
+        min-height: 125px;
+        clear: both;
 
-    .crag {
-      min-height: 125px;
-      clear: both;
+        .crag-buttons {
+          float: left;
+          width: 20%;
 
-      .crag-buttons {
-        float: left;
-        width: 20%;
+          .button-create, .button-plain {
+            margin-top: 5px;
+            font-size: 14px;
 
-        .button-create, .button-plain {
-          margin-top: 5px;
-          font-size: 14px;
-
-          &:first-of-type {
-            margin-top: 20px;
+            &:first-of-type {
+              margin-top: 20px;
+            }
           }
         }
-      }
 
-      .crag-image {
-        position: relative;
-        float: left;
-        width: 20%;
-        text-align: center;
+        .crag-image {
+          position: relative;
+          float: left;
+          width: 20%;
+          text-align: center;
 
-        img {
-          border-radius: @common_border_radius;
-        }
-      }
-
-      .crag-text {
-        float: left;
-        width: 60%;
-        padding-right: 20px;
-
-        p, h3 {
-          margin: 0;
-          padding: 0;
+          img {
+            border-radius: @image_border_radius;
+          }
         }
 
-        h3 {
-          margin-bottom: 6px;
+        .crag-text {
+          float: left;
+          width: 60%;
+          padding-right: 20px;
+
+          .crag-attrib {
+            color: #333333;
+            font-size: 16px;
+            
+            a {
+              color: #333333;
+            }
+            a:hover {
+              text-decoration: underline;
+            }
+          }
+          a {
+            color: @alt_green_2;
+            text-decoration: none;
+          }
+
+          p, h3 {
+            margin: 0;
+            padding: 0;
+          }
+
+          h3 {
+            margin-bottom: 6px;
+          }
         }
       }
     }

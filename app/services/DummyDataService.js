@@ -7,15 +7,47 @@ app.service("DummyDataService", function(UtilService){
       for ( var i = 0; i < length; i++) {
         var crag = {};
         crag.id = UtilService.randomNumber(0,20000);
-        crag.name = "Dummy crag name";
+        crag.name = "Creature Feature at Phantasia";
         crag.thumbnail_image_url = "http://lorempixel.com/100/100/nature/" + UtilService.randomNumber(0,10).toString();
         crag.description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, delectus, doloremque necessitatibus velit deleniti tempore ratione distinctio dolor sequi aliquam.";
         crag.number_of_walls = UtilService.randomNumber(3, 18);
         crag.number_of_routes = UtilService.randomNumber(45,350);
+        crag.lon = UtilService.randomLon();
+        crag.lat = UtilService.randomLat();
+        crag.rating = UtilService.randomNumber(0,5);
 
         crags.push(crag);
       }
       return crags;
+    },
+    
+    randomArrayOfRoutes: function(length) {
+      var routes = [];
+      for ( var i = 0; i < length; i++) {
+        var route = {};
+        route.id = UtilService.randomNumber(0,20000);
+        route.name = "Creature Feature at Phantasia";
+        route.thumbnail_image_url = "http://lorempixel.com/100/100/nature/" + UtilService.randomNumber(0,10).toString();
+        route.description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, delectus, doloremque necessitatibus velit deleniti tempore ratione distinctio dolor sequi aliquam.";
+        route.rating = UtilService.randomNumber(0,5);
+        route.type = "trad";
+        route.height = UtilService.randomNumber(50,150);
+        route.pitch = UtilService.randomNumber(1,3);
+
+        routes.push(route);
+      }
+      return routes;
+    },
+    
+    randomRoute: function(){
+      var route = {};
+      route.name = "The Masochist";
+      route.image_url = "http://lorempixel.com/100/100/nature/" + UtilService.randomNumber(0,10).toString();
+      route.description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, delectus, doloremque necessitatibus velit deleniti tempore ratione distinctio dolor sequi aliquam.";
+      route.grade = "5." + UtilService.randomNumber(4,15);
+      route.rating = UtilService.randomNumber(0,5);
+      
+      return route;
     }
   }
 

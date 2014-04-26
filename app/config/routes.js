@@ -2,6 +2,17 @@ app.config(function($routeProvider, $locationProvider) {
 
   $routeProvider
 
+  .when('/search/', {
+    templateUrl: '/templates/search.html',
+    controller: 'searchController'
+  })
+
+  // View a Map of all Crags
+  .when('/map/', {
+    templateUrl: '/templates/map.html',
+    controller: 'mapController'
+  })
+
   // List of all crags in DB
   .when('/crags/', {
     templateUrl: '/templates/crags.html',
@@ -11,7 +22,7 @@ app.config(function($routeProvider, $locationProvider) {
   // View specific crag
   .when('/crag/:cragId', {
     templateUrl: '/templates/crag.html',
-    controller: 'cragDetailsController',
+    controller: 'cragController',
     resolve: {
       "cragId": function ($route) {
         return $route.current.params.cragId;
