@@ -1,6 +1,8 @@
 Crag-Project-Frontend
 =====================
 
-The AngularJS front-end for CragProject.
+DEPRECATED - Merged FE and BE into one repository.
 
-Crag Project (real name TBD) is an alternative to Mountain Project in single-page-application form -- aiming to address the dated look and poor UX of Mountain Project.
+vvv
+https://github.com/Latros/Crag-Project
+^^^
